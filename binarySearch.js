@@ -23,3 +23,6 @@ console.log(binarySearch(arr, 6));
 console.log(binarySearch(arr, 20));
 
 // Big-O = O(logn)
+// Keep searching for the target element, if target element is less than mid
+// then search for the target in left half
+// if target is greater than mid the search the right half
