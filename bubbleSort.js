@@ -24,4 +24,6 @@ function bubbleSort(arr) {
   }
 }
 
+// Big-O: O(n^2)
+
 console.log(bubbleSort(arr));
